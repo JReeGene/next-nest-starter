@@ -1,0 +1,32 @@
+@value grayLightColor, whiteColor from '../styles/variables.css';
+
+.container {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to bottom right, whiteColor 0%, grayLightColor 100%);
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.profileGroup {
+  margin-bottom: 16px;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 12px;
+}

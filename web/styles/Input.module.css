@@ -1,0 +1,9 @@
+@value grayLightColor, borderRadius from "../styles/variables.css";
+
+.input {
+  margin-bottom: 16px;
+  padding: 8px 12px;
+  border: 1px solid grayLightColor;
+  border-radius: borderRadius;
+  font-size: 14px;
+}

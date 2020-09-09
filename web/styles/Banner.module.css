@@ -1,0 +1,32 @@
+@value grayLightColor, greenColor, greenDarkColor, redColor, redDarkColor, whiteColor, borderRadius from "../styles/variables.css";
+
+.container {
+  width: 100%;
+  max-width: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid;
+  border-radius: borderRadius;
+  padding: 15px 20px;
+  margin-top: 20px;
+}
+
+.default {
+  background-color: whiteColor;
+  border-color: grayLightColor;
+}
+
+.success {
+  background-color: greenColor;
+  border-color: greenDarkColor;
+}
+
+.error {
+  background-color: redColor;
+  border-color: redDarkColor;
+}
+
+.closeIcon {
+  cursor: pointer;
+}

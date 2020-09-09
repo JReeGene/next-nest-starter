@@ -1,0 +1,23 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Quicksand, -apple-system, sans-serif;
+  min-width: 440px;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+#__next {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}

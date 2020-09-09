@@ -1,0 +1,20 @@
+@value grayDarkerColor, grayLightColor, desktopMinWidth from '../styles/variables.css';
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: grayDarkerColor;
+  color: grayLightColor;
+  padding: 35px;
+  height: 240px;
+}
+
+@media(min-width: desktopMinWidth) {
+  .container {
+    flex-direction: row;
+    height: 180px;
+    padding: 0 180px;
+  }
+}

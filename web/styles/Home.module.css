@@ -1,0 +1,64 @@
+@value grayDarkColor, greenColor, whiteColor, desktopMinWidth, headerHeight from "../styles/variables.css";
+
+.logout {
+  background-color: greenColor;
+  color: whiteColor;
+  position: fixed;
+  top: headerHeight;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.spacer {
+  width: 15px;
+  margin-left: 12px;
+  margin-right: auto;
+  visibility: hidden;
+}
+
+.close {
+  width: 15px;
+  margin-left: auto;
+  margin-right: 12px;
+  justify-self: end;
+  cursor: pointer;
+}
+
+.hero {
+  width: 100%;
+  height: 400px;
+  background-image:
+    url("https://images.unsplash.com/photo-1543399174-f5f2b2a97669?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3150&q=80"),
+    linear-gradient(to bottom right, whiteColor 0%, grayDarkColor 100%);
+  background-position: center;
+  background-size: cover;
+  color: whiteColor;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.searchbar {
+  margin-bottom: 80px;
+  padding: 20px 100px;
+  border: 2px solid white;
+  border-radius: 12px;
+}
+
+@media (min-width: desktopMinWidth) {
+  .hero {
+    height: 645px;
+  }
+
+  .title {
+    margin-bottom: 60px;
+  }
+}

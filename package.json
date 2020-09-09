@@ -1,0 +1,28 @@
+{
+  "name": "next-nest-starter",
+  "version": "1.0.0",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajgrover/next-nest-starter.git"
+  },
+  "scripts": {
+    "bootstrap": "lerna bootstrap"
+  },
+  "author": "Alex Grover",
+  "private": true,
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/ajgrover/next-nest-starter/issues"
+  },
+  "homepage": "https://github.com/ajgrover/next-nest-starter#readme",
+  "devDependencies": {
+    "husky": "^4.2.5",
+    "lerna": "^3.22.1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lerna run lint"
+    }
+  }
+}

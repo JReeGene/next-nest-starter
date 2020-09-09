@@ -1,0 +1,24 @@
+/* Colors */
+@value whiteColor: #ffffff;
+@value grayLightColor: #dddddd;
+@value grayColor: #888888;
+@value grayDarkColor: #555555;
+@value grayDarkerColor: #333333;
+@value blackColor: #000000;
+@value blueLightColor: #7ab7df;
+@value blueColor: #59a5d8;
+@value greenColor: #78e08f;
+@value greenDarkColor: #27a843;
+@value greenDarkerColor: #24983c;
+@value greenDarkestColor: #208836;
+@value redColor: #fd8389;
+@value redDarkColor: #fc5c65;
+@value redDarkerColor: #fc4953;
+@value redDarkestColor: #fb3541;
+
+/* Sizes */
+@value borderRadius: 4px;
+@value headerHeight: 70px;
+
+/* Media queries */
+@value desktopMinWidth: 768px;

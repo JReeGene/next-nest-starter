@@ -1,0 +1,15 @@
+@value whiteColor, grayLightColor, borderRadius from '../styles/variables.css';
+
+.panel {
+  width: 300px;
+  background-color: whiteColor;
+  border: 1px solid grayLightColor;
+  border-radius: borderRadius;
+  padding: 20px;
+}
+
+.title {
+  width: 100%;
+  text-align: center;
+  font-weight: 400;
+}

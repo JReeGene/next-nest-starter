@@ -1,0 +1,60 @@
+{
+  "entries": {
+    "brew": {
+      "node": {
+        "version": "14.9.0",
+        "bottle": {
+          "cellar": ":any",
+          "prefix": "/usr/local",
+          "files": {
+            "catalina": {
+              "url": "https://homebrew.bintray.com/bottles/node-14.9.0.catalina.bottle.tar.gz",
+              "sha256": "df9d87a46dfa38140b2742ab1b00121825b92aabbcd98be2b8c7b4900752f749"
+            },
+            "mojave": {
+              "url": "https://homebrew.bintray.com/bottles/node-14.9.0.mojave.bottle.tar.gz",
+              "sha256": "f9c186c264f8b4511b981a7332ffaddd6e58cab2276c45e87c0e75d35a55e43f"
+            },
+            "high_sierra": {
+              "url": "https://homebrew.bintray.com/bottles/node-14.9.0.high_sierra.bottle.tar.gz",
+              "sha256": "2996971a08a2db37f99390a82e5c94850f8dca1006827ce9669ec96bd249b64e"
+            }
+          }
+        }
+      },
+      "postgresql": {
+        "version": "12.4",
+        "bottle": {
+          "cellar": "/usr/local/Cellar",
+          "prefix": "/usr/local",
+          "files": {
+            "catalina": {
+              "url": "https://homebrew.bintray.com/bottles/postgresql-12.4.catalina.bottle.tar.gz",
+              "sha256": "cf7e64a4a702db6667582d6a8d83107b67d1457a623fbe04426d9702023612fa"
+            },
+            "mojave": {
+              "url": "https://homebrew.bintray.com/bottles/postgresql-12.4.mojave.bottle.tar.gz",
+              "sha256": "199d0fa0c97e376933c8cca82e44503b36f610f7edb2170e6a1e7e7491c82017"
+            },
+            "high_sierra": {
+              "url": "https://homebrew.bintray.com/bottles/postgresql-12.4.high_sierra.bottle.tar.gz",
+              "sha256": "c210ec1143b73616108891c3cefaa31754c5bd5fda0222e2e3266035488a1353"
+            }
+          }
+        }
+      }
+    }
+  },
+  "system": {
+    "macos": {
+      "big_sur": {
+        "HOMEBREW_VERSION": "2.5.0",
+        "HOMEBREW_PREFIX": "/usr/local",
+        "Homebrew/homebrew-core": "d4a7156eeda34748f490a2a302156926e60ce05f",
+        "CLT": "",
+        "Xcode": "",
+        "macOS": "11.0"
+      }
+    }
+  }
+}

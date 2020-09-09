@@ -1,0 +1,47 @@
+@value grayColor, grayDarkColor, grayDarkerColor, grayLightColor, whiteColor from "../styles/variables.css";
+@value greenDarkColor, greenDarkerColor, greenDarkestColor from "../styles/variables.css";
+@value redDarkColor, redDarkerColor, redDarkestColor from "../styles/variables.css";
+@value borderRadius from "../styles/variables.css";
+
+.button {
+  padding: 8px 12px;
+  border: 1px solid grayDarkColor;
+  border-radius: borderRadius;
+  background-color: grayColor;
+  color: whiteColor;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: grayDarkColor;
+  border-color: grayDarkerColor;
+}
+
+.button:disabled {
+  background-color: grayLightColor;
+  border-color: grayColor;
+  cursor: auto;
+}
+
+.green {
+  background-color: greenDarkColor;
+  border-color: greenDarkerColor;
+}
+
+.green:hover {
+  background-color: greenDarkerColor;
+  border-color: greenDarkestColor;
+}
+
+.red {
+  background-color: redDarkColor;
+  border-color: redDarkerColor;
+}
+
+.red:hover {
+  background-color: redDarkerColor;
+  border-color: redDarkestColor;
+}

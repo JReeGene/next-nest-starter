@@ -1,0 +1,120 @@
+@value whiteColor, grayColor, grayDarkerColor, grayLightColor, blueColor, blueLightColor, borderRadius, desktopMinWidth, headerHeight from './variables.css';
+
+.container {
+  height: headerHeight;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 28px;
+  border-bottom: 1px solid grayLightColor;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background-color: whiteColor;
+}
+
+.brand {
+  display: flex;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin-right: 12px;
+  height: 30px;
+}
+
+.name {
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+  line-height: 1;
+}
+
+.menu {
+  display: flex;
+}
+
+.menuItem {
+  color: grayColor;
+  margin: 0 16px;
+  display: flex;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+
+.desktop {
+  display: none;
+}
+
+.link {
+  color: grayColor;
+  transition: inherit;
+}
+
+.link:hover {
+  color: blueColor;
+}
+
+.login {
+  padding: 10px 20px;
+  border: 2px solid grayColor;
+  border-radius: borderRadius;
+}
+
+.login:hover {
+  border-color: blueColor;
+}
+
+.register {
+  padding: 10px 20px;
+  background-color: blueColor;
+  border: 2px solid blueColor;
+  border-radius: borderRadius;
+  color: whiteColor;
+}
+
+.register:hover {
+  background-color: blueLightColor;
+  border-color: blueLightColor;
+  color: whiteColor;
+}
+
+.userMenuIcon {
+  color: grayDarkerColor;
+  cursor: pointer;
+}
+
+.userMenu {
+  position: fixed;
+  top: headerHeight;
+  right: 0;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: whiteColor;
+}
+
+.userMenuItem {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-left: 1px solid grayLightColor;
+  border-right: 1px solid grayLightColor;
+  border-bottom: 1px solid grayLightColor;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.userMenuItem:hover {
+  color: blueColor;
+}
+
+@media(min-width: desktopMinWidth) {
+  .desktop {
+    display: flex;
+  }
+}
